@@ -61,11 +61,11 @@ public:
     void playTone(byte,byte);
     
     // Testing Routines
-    byte getLeftMotorPacket(int byteIndex);
-    byte getRightMotorPacket(int byteIndex);
-    byte getShootMotorPacket(int byteIndex);
-    byte getTonePacket(int byteIndex);
-    byte getSpeed();
+    const byte getLeftMotorPacket(const int byteIndex) const;
+    const byte getRightMotorPacket(const int byteIndex) const;
+    const byte getShootMotorPacket(int byteIndex) const;
+    const byte getTonePacket(const int byteIndex) const;
+    const byte getSpeed() const;
 
 };
 

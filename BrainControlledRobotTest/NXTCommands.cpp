@@ -95,27 +95,27 @@ void NXTCommands::playTone(byte frequency, byte milliseconds)
 }
 
 // Testing Routines
-byte NXTCommands::getLeftMotorPacket(int byteIndex)
+const byte NXTCommands::getLeftMotorPacket(const int byteIndex) const
 {
     return _leftMotor[byteIndex];
 }
 
-byte NXTCommands::getRightMotorPacket(int byteIndex)
+const byte NXTCommands::getRightMotorPacket(const int byteIndex) const
 {
     return _rightMotor[byteIndex];
 }
 
-byte NXTCommands::getShootMotorPacket(int byteIndex)
+const byte NXTCommands::getShootMotorPacket(const int byteIndex) const
 {
     return _shootMotor[byteIndex];
 }
 
-byte NXTCommands::getTonePacket(int byteIndex)
+const byte NXTCommands::getTonePacket(const int byteIndex) const
 {
     return _tone[byteIndex];
 }
 
-byte NXTCommands::getSpeed()
+const byte NXTCommands::getSpeed() const
 {
     return _speed;
 }
