@@ -9,6 +9,10 @@
 #ifndef NXTCommands_h
 #define NXTCommands_h
 
+#include "Commands.h"
+#define PACKET_SIZE 14
+#define BAUD_RATE 38400
+
 #if ARDUINO_BUILD
     #include <Arduino.h>
     #include <SoftwareSerial.h>
@@ -16,21 +20,7 @@
     #include "TestLib.h"
 #endif
 
-#define PACKET_SIZE 14
-#define BAUD_RATE 38400
 
-class Commands {
-    
-public:
-    
-    virtual void moveLeft() = 0;
-    virtual void moveRight() = 0;
-    virtual void spin() = 0;
-    virtual void moveForward() = 0;
-    virtual void moveBackward() = 0;
-    virtual void stopMoving() = 0;
-    virtual void shoot() = 0;
-};
 
 class NXTCommands : public Commands {
     

@@ -32,3 +32,9 @@
 DerivedData/Build/Intermediates/BrainControlledRobotTest.build/Debug/BrainControlledRobotTest.build/dgph
 
 DerivedData/Build/Intermediates/BrainControlledRobotTest.build/Debug/BrainControlledRobotTest.build/dgph
+
+*.strings-file
+
+*.strings-res
+
+*.pbxproj
