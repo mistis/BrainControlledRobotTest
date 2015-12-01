@@ -1,0 +1,14 @@
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/ALL_BUILD.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/ZERO_CHECK.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/gtest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/gtest_main.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample10_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample1_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample2_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample3_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample4_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample5_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample6_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample7_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample8_unittest.dir
+/Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeFiles/sample9_unittest.dir

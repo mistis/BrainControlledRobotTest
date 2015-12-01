@@ -1,0 +1,5 @@
+0eaec1df9bbc3a3c817c35c7034f1db2 54eea1dc0d9f5d0996962290d94d3adb ffffffffffffffffffffffffffffffff 0 /Users/misti/development/gtest-1.6.0/build/Debug/libgtest.a
+a1f6b6ef5876d293f4a96a4ca61e5bcd 9c4b095c1cbc962eb3c08eec08dcffe8 ffffffffffffffffffffffffffffffff 1808200 /Users/misti/development/gtest-1.6.0/xcode/DerivedData/Build/Intermediates/gtest.build/Debug/gtest-static.build/Objects-normal/x86_64/libgtest.a
+d96ddd1a4756a32654dd6e7cc4d5f675 ea7ea3769820dda792c8bf1b69584fe2 ffffffffffffffffffffffffffffffff 1715312 /Users/misti/development/gtest-1.6.0/xcode/DerivedData/Build/Intermediates/gtest.build/Debug/gtest-static.build/Objects-normal/i386/libgtest.a
+000000004da885180000000000000a18 a1f6b6ef15cf80b1f4a96a4ca61e5057 ffffffffffffffffffffffffffffffff 1680132 /Users/misti/development/gtest-1.6.0/xcode/DerivedData/Build/Intermediates/gtest.build/Debug/gtest-static.build/Objects-normal/x86_64/gtest-all.o
+000000004da885180000000000000a18 d96ddd1a0aeff10454dd6e7cc4d5fded ffffffffffffffffffffffffffffffff 1583432 /Users/misti/development/gtest-1.6.0/xcode/DerivedData/Build/Intermediates/gtest.build/Debug/gtest-static.build/Objects-normal/i386/gtest-all.o

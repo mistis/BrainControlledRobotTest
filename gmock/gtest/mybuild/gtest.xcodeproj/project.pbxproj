@@ -1,0 +1,3583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1105A72080BB44ADAC4D9B75 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE6B093554F44CB6B47DE279 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B36305C13E794DC99D763B5B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		9C8824D15611467CA0ED1600 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F98D45F2C9B4609AC613E2D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0333D027DDDD4F1F936E3A0C /* CMake Rules */,
+			);
+			dependencies = (
+				AF7AC7CAFF2F42EF95CAFCD9 /* PBXTargetDependency */,
+				82B59DA9A8EA4ECCAA7CBFB7 /* PBXTargetDependency */,
+				75AF3080C5BD4B3AA8BF0520 /* PBXTargetDependency */,
+				9E19C29FA82A4A3897BEABAC /* PBXTargetDependency */,
+				284FDE2E2AC64621B1C351E9 /* PBXTargetDependency */,
+				18F987B9ACC04C1BB2D21767 /* PBXTargetDependency */,
+				EF7F65D9E4D04013983C6732 /* PBXTargetDependency */,
+				095F25D11B59473292DBE8DF /* PBXTargetDependency */,
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				DB635D35C4834D0F810F31A6 /* PBXTargetDependency */,
+				824218D0E16B4090AA11A2AA /* PBXTargetDependency */,
+				EC4953D4EF0146D0ADC33EAB /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01EA0BBF4D3243B4AD8AF842 /* sample10_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = E6447E01A7FC473AA29D7E8E /* sample10_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		055046F82614435EBB4E1634 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C361942594484CA5ED5AA5 /* gtest-all.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra"; }; };
+		1272864C4A9F466D9D9A1832 /* gtest_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9BB96F6CCBE64DE39B3C3CF6 /* gtest_main.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra"; }; };
+		1AE719F4A3E944FF8C1C13AE /* sample4_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = C9F659A6B6EB4098B0D038FB /* sample4_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		1F4782290A3243FF8F52AE93 /* sample6_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4CB4BB8244D839EB3A4C8 /* sample6_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		4FB39E28034F4EFCB5C1FEEF /* sample1_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 616D988DCC944DE499C632F7 /* sample1_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		5C3C1847A8194167A7649608 /* sample2_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = BF25FBD158FC40BC8B339C46 /* sample2_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		7A807D387B984EB1A39776EB /* sample7_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = CC3ABC6DAEA042AB9D9D35E4 /* sample7_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		7CCE9B73E4A44D36B80F1E22 /* sample1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 55266C3C58F74DE299C723FD /* sample1.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		A32CCE49B0894B5A9E56E798 /* sample9_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C81B51C074AE48855BA0E /* sample9_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		A3AB454D8F984E21AE1FC7D3 /* sample3_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 48FCC4D95E584945AFB0D283 /* sample3_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		B62E88638BBF479595363C6C /* sample8_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = EBAAC1F6BFF1405A86A97FD4 /* sample8_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		C0D431275FA4439886F22101 /* sample1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 55266C3C58F74DE299C723FD /* sample1.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		DFE3FA10C9D442E7945693AF /* sample2.cc in Sources */ = {isa = PBXBuildFile; fileRef = D381A06FBD1F43EC86CBE9F2 /* sample2.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		EE40935EB8474A66AB08A8A3 /* sample5_unittest.cc in Sources */ = {isa = PBXBuildFile; fileRef = 73D58DCA0D334003BB4624E6 /* sample5_unittest.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+		F013277CFA9E4BF48FF96613 /* sample4.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8B946D44B43C42F0AA2069F8 /* sample4.cc */; settings = {COMPILER_FLAGS = " -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140E15492AAD4E4DB1923505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312922D40AAB4045852CBFDE;
+			remoteInfo = sample6_unittest;
+		};
+		3440EF040060476DBEE9F50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E839D4A0B6246EEA521F5A7;
+			remoteInfo = sample7_unittest;
+		};
+		3D937AD584C24815B00A8B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17A4E139D66439FAFE56A9E;
+			remoteInfo = sample2_unittest;
+		};
+		43836516AB1F49C18C9E8064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8D8462D68D4F2F8DA01089;
+			remoteInfo = sample4_unittest;
+		};
+		5613E6225C824DF8A90275A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3726C8BDC8204A34A7CB3597;
+			remoteInfo = sample5_unittest;
+		};
+		6EF479420A494F02B875C50C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D665B6559D644095A980DC00;
+			remoteInfo = sample1_unittest;
+		};
+		75D94524AC3246279F0B4CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4624D7F56F64B5D932A0875;
+			remoteInfo = sample9_unittest;
+		};
+		946C97CB7DA746F7A8DAB00B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5368D4CFE4440E906763F4;
+			remoteInfo = sample8_unittest;
+		};
+		9E3D901FBF5448DAA277AF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D0233E58D84F2197B2510A;
+			remoteInfo = gtest_main;
+		};
+		9F6D4B8456A749CF9665DAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F4881A807B46F09E42C743;
+			remoteInfo = gtest;
+		};
+		D2C5DC2225CC41B1BBB0DEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1105A72080BB44ADAC4D9B75;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE1D1E596D624F4A935BAE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553E985302C04B83A573988A;
+			remoteInfo = sample3_unittest;
+		};
+		FFA945FDB8D644BE800850A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEDC50ABF34F417BAE7B2898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCEE5F15FA845DAA172C7B2;
+			remoteInfo = sample10_unittest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D3164556AC44BF98DD1D63 /* sample1_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample1_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7C81B51C074AE48855BA0E /* sample9_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample9_unittest.cc; path = samples/sample9_unittest.cc; sourceTree = SOURCE_ROOT; };
+		25C56EF93F574EF0A25976F6 /* sample5_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample5_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFC7056C81B42D0B1DACAF2 /* libgtest_main.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3129DD8228464209A82D4E0C /* sample4_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample4_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3478CAD6ECAC46108FB343B7 /* sample10_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample10_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39855BD856EA43E9A5289D0C /* sample2_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample2_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FC2A5444E745BCA6A7E6E3 /* sample3_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample3_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FCC4D95E584945AFB0D283 /* sample3_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample3_unittest.cc; path = samples/sample3_unittest.cc; sourceTree = SOURCE_ROOT; };
+		55266C3C58F74DE299C723FD /* sample1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample1.cc; path = samples/sample1.cc; sourceTree = SOURCE_ROOT; };
+		616D988DCC944DE499C632F7 /* sample1_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample1_unittest.cc; path = samples/sample1_unittest.cc; sourceTree = SOURCE_ROOT; };
+		73D58DCA0D334003BB4624E6 /* sample5_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample5_unittest.cc; path = samples/sample5_unittest.cc; sourceTree = SOURCE_ROOT; };
+		78BFC57504974B4687D8C41D /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78C361942594484CA5ED5AA5 /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		7EA2CC5A83DC4E8DA40E4275 /* sample9_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample9_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B946D44B43C42F0AA2069F8 /* sample4.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample4.cc; path = samples/sample4.cc; sourceTree = SOURCE_ROOT; };
+		9BB96F6CCBE64DE39B3C3CF6 /* gtest_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		9E3D39D73C1A41858CE91ACC /* sample7_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample7_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF4CB4BB8244D839EB3A4C8 /* sample6_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample6_unittest.cc; path = samples/sample6_unittest.cc; sourceTree = SOURCE_ROOT; };
+		B5D379EEB2F144BCA6FD04A0 /* libgtest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF25FBD158FC40BC8B339C46 /* sample2_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample2_unittest.cc; path = samples/sample2_unittest.cc; sourceTree = SOURCE_ROOT; };
+		C9F659A6B6EB4098B0D038FB /* sample4_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample4_unittest.cc; path = samples/sample4_unittest.cc; sourceTree = SOURCE_ROOT; };
+		CC3ABC6DAEA042AB9D9D35E4 /* sample7_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample7_unittest.cc; path = samples/sample7_unittest.cc; sourceTree = SOURCE_ROOT; };
+		D381A06FBD1F43EC86CBE9F2 /* sample2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample2.cc; path = samples/sample2.cc; sourceTree = SOURCE_ROOT; };
+		E1D38EB854C64F98B1ED240E /* sample6_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample6_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E377231E503E4F12805DA828 /* sample8_unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = sample8_unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6447E01A7FC473AA29D7E8E /* sample10_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample10_unittest.cc; path = samples/sample10_unittest.cc; sourceTree = SOURCE_ROOT; };
+		EBAAC1F6BFF1405A86A97FD4 /* sample8_unittest.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sample8_unittest.cc; path = samples/sample8_unittest.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		004B7AD3871645F69EFB27FC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6447E01A7FC473AA29D7E8E /* sample10_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		00A308E5901041B99D8A5A41 /* sample1_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				3244822A4E7C4E358E847F85 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample1_unittest;
+			sourceTree = "<group>";
+		};
+		02768A6B5E5848B88FD6606C /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D633BF9F147D8862F3FAE /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		05226B3F0FAB4F7A818DBF2E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3ABC6DAEA042AB9D9D35E4 /* sample7_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0D7719C7F0CF4A59A58F9A41 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B7C81B51C074AE48855BA0E /* sample9_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		18CFF225EF9B4412B9FEE925 /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				7B6B522B3A7741AD899BE811 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		31EDB0D686944741B8B3D295 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				73D58DCA0D334003BB4624E6 /* sample5_unittest.cc */,
+				55266C3C58F74DE299C723FD /* sample1.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3244822A4E7C4E358E847F85 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				616D988DCC944DE499C632F7 /* sample1_unittest.cc */,
+				55266C3C58F74DE299C723FD /* sample1.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4A59144E9FB447C0A68F736F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBAAC1F6BFF1405A86A97FD4 /* sample8_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4AC1842501D94567BCD2C5FA /* sample3_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				EC5BF7A186D84D4A85A07A5B /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample3_unittest;
+			sourceTree = "<group>";
+		};
+		4D5945D3C6FA49EBACBA7724 /* sample8_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				4A59144E9FB447C0A68F736F /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample8_unittest;
+			sourceTree = "<group>";
+		};
+		5167273FD086475B859CCF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D379EEB2F144BCA6FD04A0 /* libgtest.a */,
+				2FFC7056C81B42D0B1DACAF2 /* libgtest_main.a */,
+				3478CAD6ECAC46108FB343B7 /* sample10_unittest */,
+				18D3164556AC44BF98DD1D63 /* sample1_unittest */,
+				39855BD856EA43E9A5289D0C /* sample2_unittest */,
+				45FC2A5444E745BCA6A7E6E3 /* sample3_unittest */,
+				3129DD8228464209A82D4E0C /* sample4_unittest */,
+				25C56EF93F574EF0A25976F6 /* sample5_unittest */,
+				E1D38EB854C64F98B1ED240E /* sample6_unittest */,
+				9E3D39D73C1A41858CE91ACC /* sample7_unittest */,
+				E377231E503E4F12805DA828 /* sample8_unittest */,
+				7EA2CC5A83DC4E8DA40E4275 /* sample9_unittest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3CC1274B4542B28380EF3D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A4497237D65846A8A7EC5C27 /* ALL_BUILD */,
+				B6C41B52AE7A45F3B28BDB0E /* ZERO_CHECK */,
+				02768A6B5E5848B88FD6606C /* gtest */,
+				18CFF225EF9B4412B9FEE925 /* gtest_main */,
+				F2082E75265B4FA696B2C647 /* sample10_unittest */,
+				00A308E5901041B99D8A5A41 /* sample1_unittest */,
+				737E7019E3614C6DAF33E756 /* sample2_unittest */,
+				4AC1842501D94567BCD2C5FA /* sample3_unittest */,
+				7A259BD09C7B44FF90320757 /* sample4_unittest */,
+				7E0EAB6458C546B5BDBF0068 /* sample5_unittest */,
+				AA09BBDFCACA4F209B74CB52 /* sample6_unittest */,
+				F42E226AFD9649C58FD0B19B /* sample7_unittest */,
+				4D5945D3C6FA49EBACBA7724 /* sample8_unittest */,
+				D7C8F861E477499D966C7F02 /* sample9_unittest */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6AC45DE8DFFC48BF84504883 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		737E7019E3614C6DAF33E756 /* sample2_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF2C1D43A84D229E6E252B /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample2_unittest;
+			sourceTree = "<group>";
+		};
+		7A259BD09C7B44FF90320757 /* sample4_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				FF4AC208FA5648908DAAC212 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample4_unittest;
+			sourceTree = "<group>";
+		};
+		7B6B522B3A7741AD899BE811 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB96F6CCBE64DE39B3C3CF6 /* gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7E0EAB6458C546B5BDBF0068 /* sample5_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				31EDB0D686944741B8B3D295 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample5_unittest;
+			sourceTree = "<group>";
+		};
+		85294F30C5D24B8F961A406C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A4497237D65846A8A7EC5C27 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D583E014A74A42C1912B0AA7 /* CMake Rules */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A67783CACF4B4E2D812E4A57 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EF4CB4BB8244D839EB3A4C8 /* sample6_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AA09BBDFCACA4F209B74CB52 /* sample6_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				A67783CACF4B4E2D812E4A57 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample6_unittest;
+			sourceTree = "<group>";
+		};
+		AC7D633BF9F147D8862F3FAE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				78C361942594484CA5ED5AA5 /* gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B6C41B52AE7A45F3B28BDB0E /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				6AC45DE8DFFC48BF84504883 /* CMake Rules */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		D583E014A74A42C1912B0AA7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D7C8F861E477499D966C7F02 /* sample9_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				0D7719C7F0CF4A59A58F9A41 /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample9_unittest;
+			sourceTree = "<group>";
+		};
+		E4497EF8AFC4459E9362EF1A = {
+			isa = PBXGroup;
+			children = (
+				5D3CC1274B4542B28380EF3D /* Sources */,
+				85294F30C5D24B8F961A406C /* Resources */,
+				5167273FD086475B859CCF12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5BF7A186D84D4A85A07A5B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				48FCC4D95E584945AFB0D283 /* sample3_unittest.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F2082E75265B4FA696B2C647 /* sample10_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				004B7AD3871645F69EFB27FC /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample10_unittest;
+			sourceTree = "<group>";
+		};
+		F42E226AFD9649C58FD0B19B /* sample7_unittest */ = {
+			isa = PBXGroup;
+			children = (
+				05226B3F0FAB4F7A818DBF2E /* Source Files */,
+				78BFC57504974B4687D8C41D /* CMakeLists.txt */,
+			);
+			name = sample7_unittest;
+			sourceTree = "<group>";
+		};
+		F4AF2C1D43A84D229E6E252B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF25FBD158FC40BC8B339C46 /* sample2_unittest.cc */,
+				D381A06FBD1F43EC86CBE9F2 /* sample2.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FF4AC208FA5648908DAAC212 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F659A6B6EB4098B0D038FB /* sample4_unittest.cc */,
+				8B946D44B43C42F0AA2069F8 /* sample4.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E839D4A0B6246EEA521F5A7 /* sample7_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42CCCB0C74B441FBB8013E0 /* Build configuration list for PBXNativeTarget "sample7_unittest" */;
+			buildPhases = (
+				A18D3D014A4C434F95F86C5C /* Sources */,
+				DE779B8D21644194BE785F61 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample7_unittest;
+			productName = sample7_unittest;
+			productReference = 9E3D39D73C1A41858CE91ACC /* sample7_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		312922D40AAB4045852CBFDE /* sample6_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01208A6B26A141E28E2D8C95 /* Build configuration list for PBXNativeTarget "sample6_unittest" */;
+			buildPhases = (
+				205C946C2DE143098D898AD5 /* Sources */,
+				8F7F28B91B7A48A691370C1F /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample6_unittest;
+			productName = sample6_unittest;
+			productReference = E1D38EB854C64F98B1ED240E /* sample6_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		34D0233E58D84F2197B2510A /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449862E6E4334C19A720BD4C /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				78DE356CC86D4A329C8C6222 /* Sources */,
+				62AB0C0DA107402EB6BDCB8B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				DB635D35C4834D0F810F31A6 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 2FFC7056C81B42D0B1DACAF2 /* libgtest_main.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3726C8BDC8204A34A7CB3597 /* sample5_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30180261A4E84C4D83B2997F /* Build configuration list for PBXNativeTarget "sample5_unittest" */;
+			buildPhases = (
+				973BB6B1B7024AF6BF667ED8 /* Sources */,
+				57447BE1A19648B69FEFAE97 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample5_unittest;
+			productName = sample5_unittest;
+			productReference = 25C56EF93F574EF0A25976F6 /* sample5_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		4E8D8462D68D4F2F8DA01089 /* sample4_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E319C6727E12436BAF489887 /* Build configuration list for PBXNativeTarget "sample4_unittest" */;
+			buildPhases = (
+				E299992B9B514FF4AA74AB32 /* Sources */,
+				F3EB78C5ED0C43A9A9D5A19D /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample4_unittest;
+			productName = sample4_unittest;
+			productReference = 3129DD8228464209A82D4E0C /* sample4_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		553E985302C04B83A573988A /* sample3_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F54F5583324FDBA8BC772B /* Build configuration list for PBXNativeTarget "sample3_unittest" */;
+			buildPhases = (
+				2191C1C05AF049EEBBBEE637 /* Sources */,
+				77198320521245219A0DF79A /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample3_unittest;
+			productName = sample3_unittest;
+			productReference = 45FC2A5444E745BCA6A7E6E3 /* sample3_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		7CCEE5F15FA845DAA172C7B2 /* sample10_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B89FA61E8A64D84944CBE98 /* Build configuration list for PBXNativeTarget "sample10_unittest" */;
+			buildPhases = (
+				AF3042CA58BA45538179F7C1 /* Sources */,
+				7E9E89DFB16740199B5BB14B /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				DB635D35C4834D0F810F31A6 /* PBXTargetDependency */,
+			);
+			name = sample10_unittest;
+			productName = sample10_unittest;
+			productReference = 3478CAD6ECAC46108FB343B7 /* sample10_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		82F4881A807B46F09E42C743 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3FB25B359A4241B9C0FCDA /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				C7447BFBFE2F49418E5D52A7 /* Sources */,
+				AECB425706604CE0AC2E2058 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = B5D379EEB2F144BCA6FD04A0 /* libgtest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B5368D4CFE4440E906763F4 /* sample8_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D80051457D4232AE488DF1 /* Build configuration list for PBXNativeTarget "sample8_unittest" */;
+			buildPhases = (
+				ECDD72D9BFFC4E87B8C69FD5 /* Sources */,
+				32E15EC83859429FA46C058F /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample8_unittest;
+			productName = sample8_unittest;
+			productReference = E377231E503E4F12805DA828 /* sample8_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		C17A4E139D66439FAFE56A9E /* sample2_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7652197587449FAE719489 /* Build configuration list for PBXNativeTarget "sample2_unittest" */;
+			buildPhases = (
+				5ECDA4A72FAB45728BF7BA88 /* Sources */,
+				62BAD81EBF1D4FD9AD84CE87 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample2_unittest;
+			productName = sample2_unittest;
+			productReference = 39855BD856EA43E9A5289D0C /* sample2_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		D665B6559D644095A980DC00 /* sample1_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0958265090040B792700D46 /* Build configuration list for PBXNativeTarget "sample1_unittest" */;
+			buildPhases = (
+				6B4E2644F1A0429399E85C5E /* Sources */,
+				336DA1C72C4D4FC18E3E2366 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				319269C62BB644C18BE13550 /* PBXTargetDependency */,
+			);
+			name = sample1_unittest;
+			productName = sample1_unittest;
+			productReference = 18D3164556AC44BF98DD1D63 /* sample1_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+		E4624D7F56F64B5D932A0875 /* sample9_unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDBF2FCA2044105BFE33DEC /* Build configuration list for PBXNativeTarget "sample9_unittest" */;
+			buildPhases = (
+				3D0A2CDD2AEA4B708D1806FF /* Sources */,
+				05C48D75CFF94BC2866E899A /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */,
+				DB635D35C4834D0F810F31A6 /* PBXTargetDependency */,
+			);
+			name = sample9_unittest;
+			productName = sample9_unittest;
+			productReference = 7EA2CC5A83DC4E8DA40E4275 /* sample9_unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEDC50ABF34F417BAE7B2898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 330130A13A554EAB916338B3 /* Build configuration list for PBXProject "gtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E4497EF8AFC4459E9362EF1A;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				9C8824D15611467CA0ED1600 /* ALL_BUILD */,
+				1105A72080BB44ADAC4D9B75 /* ZERO_CHECK */,
+				82F4881A807B46F09E42C743 /* gtest */,
+				34D0233E58D84F2197B2510A /* gtest_main */,
+				7CCEE5F15FA845DAA172C7B2 /* sample10_unittest */,
+				D665B6559D644095A980DC00 /* sample1_unittest */,
+				C17A4E139D66439FAFE56A9E /* sample2_unittest */,
+				553E985302C04B83A573988A /* sample3_unittest */,
+				4E8D8462D68D4F2F8DA01089 /* sample4_unittest */,
+				3726C8BDC8204A34A7CB3597 /* sample5_unittest */,
+				312922D40AAB4045852CBFDE /* sample6_unittest */,
+				2E839D4A0B6246EEA521F5A7 /* sample7_unittest */,
+				8B5368D4CFE4440E906763F4 /* sample8_unittest */,
+				E4624D7F56F64B5D932A0875 /* sample9_unittest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0333D027DDDD4F1F936E3A0C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		05C48D75CFF94BC2866E899A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample9_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		32E15EC83859429FA46C058F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample8_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		336DA1C72C4D4FC18E3E2366 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample1_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		57447BE1A19648B69FEFAE97 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample5_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		62AB0C0DA107402EB6BDCB8B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/gtest_main_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		62BAD81EBF1D4FD9AD84CE87 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample2_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		77198320521245219A0DF79A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample3_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7E9E89DFB16740199B5BB14B /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample10_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8F7F28B91B7A48A691370C1F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample6_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AECB425706604CE0AC2E2058 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/gtest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B36305C13E794DC99D763B5B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DE779B8D21644194BE785F61 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample7_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F3EB78C5ED0C43A9A9D5A19D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/bj/development/gmock-1.6.0/gtest/mybuild -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/sample4_unittest_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205C946C2DE143098D898AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4782290A3243FF8F52AE93 /* sample6_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2191C1C05AF049EEBBBEE637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AB454D8F984E21AE1FC7D3 /* sample3_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0A2CDD2AEA4B708D1806FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32CCE49B0894B5A9E56E798 /* sample9_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECDA4A72FAB45728BF7BA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3C1847A8194167A7649608 /* sample2_unittest.cc in Sources */,
+				DFE3FA10C9D442E7945693AF /* sample2.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4E2644F1A0429399E85C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB39E28034F4EFCB5C1FEEF /* sample1_unittest.cc in Sources */,
+				7CCE9B73E4A44D36B80F1E22 /* sample1.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78DE356CC86D4A329C8C6222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1272864C4A9F466D9D9A1832 /* gtest_main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973BB6B1B7024AF6BF667ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE40935EB8474A66AB08A8A3 /* sample5_unittest.cc in Sources */,
+				C0D431275FA4439886F22101 /* sample1.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D3D014A4C434F95F86C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A807D387B984EB1A39776EB /* sample7_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF3042CA58BA45538179F7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01EA0BBF4D3243B4AD8AF842 /* sample10_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7447BFBFE2F49418E5D52A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055046F82614435EBB4E1634 /* gtest-all.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E299992B9B514FF4AA74AB32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE719F4A3E944FF8C1C13AE /* sample4_unittest.cc in Sources */,
+				F013277CFA9E4BF48FF96613 /* sample4.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDD72D9BFFC4E87B8C69FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62E88638BBF479595363C6C /* sample8_unittest.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		095F25D11B59473292DBE8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553E985302C04B83A573988A /* sample3_unittest */;
+			targetProxy = FE1D1E596D624F4A935BAE69 /* PBXContainerItemProxy */;
+		};
+		18F987B9ACC04C1BB2D21767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E839D4A0B6246EEA521F5A7 /* sample7_unittest */;
+			targetProxy = 3440EF040060476DBEE9F50E /* PBXContainerItemProxy */;
+		};
+		284FDE2E2AC64621B1C351E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCEE5F15FA845DAA172C7B2 /* sample10_unittest */;
+			targetProxy = FFA945FDB8D644BE800850A9 /* PBXContainerItemProxy */;
+		};
+		319269C62BB644C18BE13550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D0233E58D84F2197B2510A /* gtest_main */;
+			targetProxy = 9E3D901FBF5448DAA277AF8F /* PBXContainerItemProxy */;
+		};
+		75AF3080C5BD4B3AA8BF0520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8D8462D68D4F2F8DA01089 /* sample4_unittest */;
+			targetProxy = 43836516AB1F49C18C9E8064 /* PBXContainerItemProxy */;
+		};
+		824218D0E16B4090AA11A2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3726C8BDC8204A34A7CB3597 /* sample5_unittest */;
+			targetProxy = 5613E6225C824DF8A90275A4 /* PBXContainerItemProxy */;
+		};
+		82B59DA9A8EA4ECCAA7CBFB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D665B6559D644095A980DC00 /* sample1_unittest */;
+			targetProxy = 6EF479420A494F02B875C50C /* PBXContainerItemProxy */;
+		};
+		9E19C29FA82A4A3897BEABAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17A4E139D66439FAFE56A9E /* sample2_unittest */;
+			targetProxy = 3D937AD584C24815B00A8B6F /* PBXContainerItemProxy */;
+		};
+		AF7AC7CAFF2F42EF95CAFCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B5368D4CFE4440E906763F4 /* sample8_unittest */;
+			targetProxy = 946C97CB7DA746F7A8DAB00B /* PBXContainerItemProxy */;
+		};
+		B41FBB23825142CEAC5A5EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1105A72080BB44ADAC4D9B75 /* ZERO_CHECK */;
+			targetProxy = D2C5DC2225CC41B1BBB0DEFC /* PBXContainerItemProxy */;
+		};
+		DB635D35C4834D0F810F31A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F4881A807B46F09E42C743 /* gtest */;
+			targetProxy = 9F6D4B8456A749CF9665DAE6 /* PBXContainerItemProxy */;
+		};
+		EC4953D4EF0146D0ADC33EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4624D7F56F64B5D932A0875 /* sample9_unittest */;
+			targetProxy = 75D94524AC3246279F0B4CAB /* PBXContainerItemProxy */;
+		};
+		EF7F65D9E4D04013983C6732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312922D40AAB4045852CBFDE /* sample6_unittest */;
+			targetProxy = 140E15492AAD4E4DB1923505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0108E951D4E64AAFADF917C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0212289A8E2E49A68D7EF27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample1_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		039C0D56728B4FDB8450DBCC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample10_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		0FB98C78B73041CABA1A680D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample4_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		11E81914ADAE419F83494836 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample7_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		1256425AE32F424693CA3BE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample6_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		20AAAFBCDCD5450B86B827E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample3_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		24DF80E378EB44D8B2FF11F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		26C7FF728EA14C69B3474954 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample1_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		2CB6A95D416843B5BBA1DC48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		33580646096B4937B2D38445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild/build";
+			};
+			name = Release;
+		};
+		3D4E3BAF686647498E54CA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample6_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		3E49AB9F0A884ED1A7BB13A3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample3_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3F1072F426CC48A5AE569C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample10_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		40C7983FF80F48258EDB2BA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample8_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		42D67FF4F64A45A4B875B143 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		45E98635BD5041FCA26EE3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample5_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		481D653956424BAD8271A8E0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4A2FDA155B604680BA7D3652 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample8_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		4FD1107B883D408AA0DF465E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		5124D96726C0481D9FDB11C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample7_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		570FB7D526D64ED1BB403ABA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample9_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		5C3CDBB99B0F4205B9BB0D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample2_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		5DC75CA7043744599F72A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		6313187ECE594BA18E5A8A3E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample4_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		64DED74BE82843BA99A86072 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample6_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		67F368E3D754436686317EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample8_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		6B6080C10F3144B8AACD66F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		7035DFA4035E48FB9EB633D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild/build";
+			};
+			name = MinSizeRel;
+		};
+		72317DD1850B4B62B7930FED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample3_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7938277F92234F1B8F35F158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample9_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		7963DFD933374E9784FA561A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample2_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7DA44D2A5FF34D85BD99EC53 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample5_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7FA2E3A2D3554358908B7D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample1_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		8BD115B992974E14ACA91B17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8DB7ACD3987040658D7928BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8EA74F10485D42A09D93E508 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		957BD93E75144A9EB48BD4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample8_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		95AEABC62AAE421D857E4337 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		998BCE3C44E249B6B0BC5E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample4_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		A0EDBB3915494718AEF355D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample4_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		A1B6B75A03504291A3057E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		A7F03BB5623049BD80419F40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample10_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		AABE208F774842599CB99745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample3_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		B78D4FE32FC8449D961339EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild/build";
+			};
+			name = Debug;
+		};
+		B9A3701E60754BE993DA2676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		BC9FC69326834180AC16A102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample9_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		BDD23B8FA30A4971B2A63217 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample1_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		BFD06720AA1643C9B5AD657A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		C70B3902854C4F73B1E97BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample10_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		C7AEF11E0A0E4BAFB47FCC0C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample7_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		CA2F2658B6704A0D91ABBEB5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample2_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		CB43D7ED186540D7B028C8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		CE0195DCB2AF4963948263AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/RelWithDebInfo/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample9_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D5D250B746554FB08BE35655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		E4AE2EE4E06B44DF8CF1FA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample6_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F0C0E823D43A460D9C93C5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample7_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F1C64D5023C94B3682FB76A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Release/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample5_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F1D0A615015E433C813FE4DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/MinSizeRel/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample5_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F4E47C19C8074776A93C6845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/include",
+					"/Users/bj/development/gmock-1.6.0/gtest",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/src",
+				);
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest_main.a",
+					"/Users/bj/development/gmock-1.6.0/gtest/mybuild/Debug/libgtest.a",
+				);
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = sample2_unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bj/development/gmock-1.6.0/gtest/mybuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01208A6B26A141E28E2D8C95 /* Build configuration list for PBXNativeTarget "sample6_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4E3BAF686647498E54CA0F /* Debug */,
+				E4AE2EE4E06B44DF8CF1FA4C /* Release */,
+				64DED74BE82843BA99A86072 /* MinSizeRel */,
+				1256425AE32F424693CA3BE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21F54F5583324FDBA8BC772B /* Build configuration list for PBXNativeTarget "sample3_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AAAFBCDCD5450B86B827E4 /* Debug */,
+				AABE208F774842599CB99745 /* Release */,
+				3E49AB9F0A884ED1A7BB13A3 /* MinSizeRel */,
+				72317DD1850B4B62B7930FED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2F98D45F2C9B4609AC613E2D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB43D7ED186540D7B028C8DD /* Debug */,
+				A1B6B75A03504291A3057E8D /* Release */,
+				8EA74F10485D42A09D93E508 /* MinSizeRel */,
+				481D653956424BAD8271A8E0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30180261A4E84C4D83B2997F /* Build configuration list for PBXNativeTarget "sample5_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E98635BD5041FCA26EE3EB /* Debug */,
+				F1C64D5023C94B3682FB76A7 /* Release */,
+				F1D0A615015E433C813FE4DE /* MinSizeRel */,
+				7DA44D2A5FF34D85BD99EC53 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		330130A13A554EAB916338B3 /* Build configuration list for PBXProject "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78D4FE32FC8449D961339EE /* Debug */,
+				33580646096B4937B2D38445 /* Release */,
+				7035DFA4035E48FB9EB633D3 /* MinSizeRel */,
+				0108E951D4E64AAFADF917C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B89FA61E8A64D84944CBE98 /* Build configuration list for PBXNativeTarget "sample10_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1072F426CC48A5AE569C52 /* Debug */,
+				C70B3902854C4F73B1E97BE2 /* Release */,
+				A7F03BB5623049BD80419F40 /* MinSizeRel */,
+				039C0D56728B4FDB8450DBCC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		449862E6E4334C19A720BD4C /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D250B746554FB08BE35655 /* Debug */,
+				5DC75CA7043744599F72A4D6 /* Release */,
+				8BD115B992974E14ACA91B17 /* MinSizeRel */,
+				BFD06720AA1643C9B5AD657A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADDBF2FCA2044105BFE33DEC /* Build configuration list for PBXNativeTarget "sample9_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9FC69326834180AC16A102 /* Debug */,
+				7938277F92234F1B8F35F158 /* Release */,
+				570FB7D526D64ED1BB403ABA /* MinSizeRel */,
+				CE0195DCB2AF4963948263AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE6B093554F44CB6B47DE279 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6080C10F3144B8AACD66F7 /* Debug */,
+				4FD1107B883D408AA0DF465E /* Release */,
+				2CB6A95D416843B5BBA1DC48 /* MinSizeRel */,
+				95AEABC62AAE421D857E4337 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1D80051457D4232AE488DF1 /* Build configuration list for PBXNativeTarget "sample8_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957BD93E75144A9EB48BD4BD /* Debug */,
+				67F368E3D754436686317EE7 /* Release */,
+				4A2FDA155B604680BA7D3652 /* MinSizeRel */,
+				40C7983FF80F48258EDB2BA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C0958265090040B792700D46 /* Build configuration list for PBXNativeTarget "sample1_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA2E3A2D3554358908B7D0D /* Debug */,
+				0212289A8E2E49A68D7EF27D /* Release */,
+				26C7FF728EA14C69B3474954 /* MinSizeRel */,
+				BDD23B8FA30A4971B2A63217 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB3FB25B359A4241B9C0FCDA /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9A3701E60754BE993DA2676 /* Debug */,
+				24DF80E378EB44D8B2FF11F0 /* Release */,
+				42D67FF4F64A45A4B875B143 /* MinSizeRel */,
+				8DB7ACD3987040658D7928BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE7652197587449FAE719489 /* Build configuration list for PBXNativeTarget "sample2_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E47C19C8074776A93C6845 /* Debug */,
+				5C3CDBB99B0F4205B9BB0D50 /* Release */,
+				CA2F2658B6704A0D91ABBEB5 /* MinSizeRel */,
+				7963DFD933374E9784FA561A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E319C6727E12436BAF489887 /* Build configuration list for PBXNativeTarget "sample4_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB98C78B73041CABA1A680D /* Debug */,
+				998BCE3C44E249B6B0BC5E88 /* Release */,
+				A0EDBB3915494718AEF355D3 /* MinSizeRel */,
+				6313187ECE594BA18E5A8A3E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E42CCCB0C74B441FBB8013E0 /* Build configuration list for PBXNativeTarget "sample7_unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5124D96726C0481D9FDB11C7 /* Debug */,
+				F0C0E823D43A460D9C93C5B1 /* Release */,
+				C7AEF11E0A0E4BAFB47FCC0C /* MinSizeRel */,
+				11E81914ADAE419F83494836 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEDC50ABF34F417BAE7B2898 /* Project object */;
+}

@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CCB0B941C065C9C0082CAC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB0B931C065C9C0082CAC5 /* main.cpp */; };
+		4CBE40771C0D111300ACB85B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40761C0D111300ACB85B /* main.cpp */; };
+		4CBE407E1C0D139700ACB85B /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE407D1C0D139700ACB85B /* gtest-all.cc */; };
+		4CBE40A71C0D209600ACB85B /* CommandPacketGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */; };
+		4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */; };
+		4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */; };
+		4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AB1C0D273100ACB85B /* TestLib.cpp */; };
+		4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */; };
+		4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */; };
+		4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4CCB0B8E1C065C9C0082CAC5 /* CopyFiles */ = {
+		4CBE40711C0D111200ACB85B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +31,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4CCB0B901C065C9C0082CAC5 /* BrainControlledRobotTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrainControlledRobotTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CCB0B931C065C9C0082CAC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CBE40731C0D111200ACB85B /* BrainControlledRobotTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrainControlledRobotTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBE40761C0D111300ACB85B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CBE407D1C0D139700ACB85B /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
+		4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGenerator.cpp; sourceTree = "<group>"; };
+		4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandProcessorLevelOne.cpp; sourceTree = "<group>"; };
+		4CBE40A11C0D209600ACB85B /* CommandProcessorLevelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProcessorLevelOne.h; sourceTree = "<group>"; };
+		4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NXTCommands.cpp; sourceTree = "<group>"; };
+		4CBE40A31C0D209600ACB85B /* NXTCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTCommands.h; sourceTree = "<group>"; };
+		4CBE40A41C0D209600ACB85B /* BrainControlledRobot.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BrainControlledRobot.ino; sourceTree = "<group>"; };
+		4CBE40A51C0D209600ACB85B /* CommandDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandDefinitions.h; sourceTree = "<group>"; };
+		4CBE40A61C0D209600ACB85B /* CommandPacketGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPacketGenerator.h; sourceTree = "<group>"; };
+		4CBE40AA1C0D20D200ACB85B /* TestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
+		4CBE40AB1C0D273100ACB85B /* TestLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestLib.cpp; sourceTree = "<group>"; };
+		4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicTest.cpp; sourceTree = "<group>"; };
+		4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicMockTest.cpp; sourceTree = "<group>"; };
+		4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGeneratorTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CCB0B8D1C065C9C0082CAC5 /* Frameworks */ = {
+		4CBE40701C0D111200ACB85B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +60,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4CCB0B871C065C9C0082CAC5 = {
+		4CBE406A1C0D111200ACB85B = {
 			isa = PBXGroup;
 			children = (
-				4CCB0B921C065C9C0082CAC5 /* BrainControlledRobotTest */,
-				4CCB0B911C065C9C0082CAC5 /* Products */,
+				4CBE40751C0D111200ACB85B /* BrainControlledRobotTest */,
+				4CBE40741C0D111200ACB85B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4CCB0B911C065C9C0082CAC5 /* Products */ = {
+		4CBE40741C0D111200ACB85B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CCB0B901C065C9C0082CAC5 /* BrainControlledRobotTest */,
+				4CBE40731C0D111200ACB85B /* BrainControlledRobotTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4CCB0B921C065C9C0082CAC5 /* BrainControlledRobotTest */ = {
+		4CBE40751C0D111200ACB85B /* BrainControlledRobotTest */ = {
 			isa = PBXGroup;
 			children = (
-				4CCB0B931C065C9C0082CAC5 /* main.cpp */,
+				4CBE40761C0D111300ACB85B /* main.cpp */,
+				4CBE407D1C0D139700ACB85B /* gtest-all.cc */,
+				4CBE40811C0D144F00ACB85B /* ImplementationFiles */,
+				4CBE407F1C0D142B00ACB85B /* UnitTests */,
 			);
 			path = BrainControlledRobotTest;
+			sourceTree = "<group>";
+		};
+		4CBE407F1C0D142B00ACB85B /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */,
+				4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */,
+				4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */,
+			);
+			name = UnitTests;
+			sourceTree = "<group>";
+		};
+		4CBE40811C0D144F00ACB85B /* ImplementationFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE40A61C0D209600ACB85B /* CommandPacketGenerator.h */,
+				4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */,
+				4CBE40A11C0D209600ACB85B /* CommandProcessorLevelOne.h */,
+				4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */,
+				4CBE40A31C0D209600ACB85B /* NXTCommands.h */,
+				4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */,
+				4CBE40A41C0D209600ACB85B /* BrainControlledRobot.ino */,
+				4CBE40A51C0D209600ACB85B /* CommandDefinitions.h */,
+				4CBE40AA1C0D20D200ACB85B /* TestLib.h */,
+				4CBE40AB1C0D273100ACB85B /* TestLib.cpp */,
+			);
+			name = ImplementationFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CCB0B8F1C065C9C0082CAC5 /* BrainControlledRobotTest */ = {
+		4CBE40721C0D111200ACB85B /* BrainControlledRobotTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CCB0B971C065C9C0082CAC5 /* Build configuration list for PBXNativeTarget "BrainControlledRobotTest" */;
+			buildConfigurationList = 4CBE407A1C0D111300ACB85B /* Build configuration list for PBXNativeTarget "BrainControlledRobotTest" */;
 			buildPhases = (
-				4CCB0B8C1C065C9C0082CAC5 /* Sources */,
-				4CCB0B8D1C065C9C0082CAC5 /* Frameworks */,
-				4CCB0B8E1C065C9C0082CAC5 /* CopyFiles */,
+				4CBE406F1C0D111200ACB85B /* Sources */,
+				4CBE40701C0D111200ACB85B /* Frameworks */,
+				4CBE40711C0D111200ACB85B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +131,61 @@
 			);
 			name = BrainControlledRobotTest;
 			productName = BrainControlledRobotTest;
-			productReference = 4CCB0B901C065C9C0082CAC5 /* BrainControlledRobotTest */;
+			productReference = 4CBE40731C0D111200ACB85B /* BrainControlledRobotTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4CCB0B881C065C9C0082CAC5 /* Project object */ = {
+		4CBE406B1C0D111200ACB85B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Misti Stevens";
 				TargetAttributes = {
-					4CCB0B8F1C065C9C0082CAC5 = {
+					4CBE40721C0D111200ACB85B = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
-			buildConfigurationList = 4CCB0B8B1C065C9C0082CAC5 /* Build configuration list for PBXProject "BrainControlledRobotTest" */;
+			buildConfigurationList = 4CBE406E1C0D111200ACB85B /* Build configuration list for PBXProject "BrainControlledRobotTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4CCB0B871C065C9C0082CAC5;
-			productRefGroup = 4CCB0B911C065C9C0082CAC5 /* Products */;
+			mainGroup = 4CBE406A1C0D111200ACB85B;
+			productRefGroup = 4CBE40741C0D111200ACB85B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CCB0B8F1C065C9C0082CAC5 /* BrainControlledRobotTest */,
+				4CBE40721C0D111200ACB85B /* BrainControlledRobotTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CCB0B8C1C065C9C0082CAC5 /* Sources */ = {
+		4CBE406F1C0D111200ACB85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCB0B941C065C9C0082CAC5 /* main.cpp in Sources */,
+				4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */,
+				4CBE40771C0D111300ACB85B /* main.cpp in Sources */,
+				4CBE40A71C0D209600ACB85B /* CommandPacketGenerator.cpp in Sources */,
+				4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */,
+				4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */,
+				4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */,
+				4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */,
+				4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */,
+				4CBE407E1C0D139700ACB85B /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4CCB0B951C065C9C0082CAC5 /* Debug */ = {
+		4CBE40781C0D111300ACB85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -150,6 +210,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					GTEST_USE_OWN_TR1_TUPLE,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -162,10 +223,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "gtest/include gtest Brain";
 			};
 			name = Debug;
 		};
-		4CCB0B961C065C9C0082CAC5 /* Release */ = {
+		4CBE40791C0D111300ACB85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,6 +249,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = GTEST_USE_OWN_TR1_TUPLE;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -196,44 +259,48 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "gtest/include gtest Brain";
 			};
 			name = Release;
 		};
-		4CCB0B981C065C9C0082CAC5 /* Debug */ = {
+		4CBE407B1C0D111300ACB85B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "gtest/include gtest gmock/include gmock";
 			};
 			name = Debug;
 		};
-		4CCB0B991C065C9C0082CAC5 /* Release */ = {
+		4CBE407C1C0D111300ACB85B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "gtest/include gtest gmock/include gmock";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CCB0B8B1C065C9C0082CAC5 /* Build configuration list for PBXProject "BrainControlledRobotTest" */ = {
+		4CBE406E1C0D111200ACB85B /* Build configuration list for PBXProject "BrainControlledRobotTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCB0B951C065C9C0082CAC5 /* Debug */,
-				4CCB0B961C065C9C0082CAC5 /* Release */,
+				4CBE40781C0D111300ACB85B /* Debug */,
+				4CBE40791C0D111300ACB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CCB0B971C065C9C0082CAC5 /* Build configuration list for PBXNativeTarget "BrainControlledRobotTest" */ = {
+		4CBE407A1C0D111300ACB85B /* Build configuration list for PBXNativeTarget "BrainControlledRobotTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCB0B981C065C9C0082CAC5 /* Debug */,
-				4CCB0B991C065C9C0082CAC5 /* Release */,
+				4CBE407B1C0D111300ACB85B /* Debug */,
+				4CBE407C1C0D111300ACB85B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4CCB0B881C065C9C0082CAC5 /* Project object */;
+	rootObject = 4CBE406B1C0D111200ACB85B /* Project object */;
 }

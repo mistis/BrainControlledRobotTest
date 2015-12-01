@@ -1,0 +1,5 @@
+samples/test_fused_gtest_test-sample1.o \
+  samples/test_fused_gtest_test-sample1.o: samples/sample1.cc \
+  samples/sample1.h
+
+samples/sample1.h:
