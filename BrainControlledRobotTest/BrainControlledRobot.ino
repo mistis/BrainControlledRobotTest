@@ -29,7 +29,7 @@ const int mNumberOfSamples = 1;
 CommandProcessorLevelOne mCommmandProcessor(mNumberOfSamples);
 
 // Set up the Command Packet Generator
-NXTCommandPacketGenerator mCommandPacketHandler();
+CommandPacketGenerator mCommandPacketHandler();
 
 // Set up the brain parser, pass it the hardware serial object you want to listen on.
 Brain brain(Serial);
