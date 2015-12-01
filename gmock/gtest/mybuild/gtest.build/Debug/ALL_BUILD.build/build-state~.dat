@@ -1,29 +1,0 @@
-TALL_BUILD
-v7
-r0
-t393716554.958076
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ALL_BUILD.build/Script-2DBB366783984CC081DA04D3.sh
-
-N/Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ALL_BUILD.build/Script-2DBB366783984CC081DA04D3.sh
-c0000000051C76BCA00000000000000B8
-t1372023754
-s184
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies393716554#393716554#0(0"0(0#1#0"8631996480#0"0#
-
-CPhaseScriptExecution "CMake Rules" /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ALL_BUILD.build/Script-2DBB366783984CC081DA04D3.sh
-s393716554.943286
-e393716554.958045
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ALL_BUILD.build/Script-2DBB366783984CC081DA04D3.sh
-oecho ""
-o
-oecho Build\ all\ projects
-oBuild all projects
-lSLF07#2@37"Run custom shell script 'CMake Rules'393716554#393716554#0(54"echo ""echo Build\ all\ projectsBuild all projects3(13@8"echo ""393716554#0#8#0(1@0"0(13@26"echo Build\ all\ projects393716554#9#26#0(1@0"0(13@19"Build all projects393716554#35#19#0(1@0"0(0#0#0"8631816736#195"    cd /Volumes/leopard/Users/bj/development/gmock-1.6.0/gtest    /bin/sh -c /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ALL_BUILD.build/Script-2DBB366783984CC081DA04D3.sh0#
-

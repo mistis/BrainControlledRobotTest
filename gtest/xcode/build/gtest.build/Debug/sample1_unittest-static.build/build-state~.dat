@@ -1,369 +1,0 @@
-Tsample1_unittest-static
-v7
-r0
-t389346707.292034
-cCheck dependencies
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal i386 c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal i386 c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal x86_64 c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal x86_64 c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal ppc c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal ppc c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal ppc64 c++ com.apple.compilers.gcc.4_0
-cCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal ppc64 c++ com.apple.compilers.gcc.4_0
-cLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static normal i386
-cLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static normal ppc
-cLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static normal x86_64
-cLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static normal ppc64
-cCreateUniversalBinary /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/sample1_unittest-static normal "i386 x86_64 ppc ppc64"
-
-N/Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk
-c000000004DACA6D50000000000000110
-t1303160533
-s272
-
-N/Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h
-c000000004B90B8860000000000000C7E
-t1267775622
-s3198
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/samples/sample1.h
-c000000004DA885160000000000000791
-t1302889750
-s1937
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-death-test.h
-c000000004DA885160000000000002B65
-t1302889750
-s11109
-i"gtest/internal/gtest-death-test-internal.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-message.h
-c000000004DA8851600000000000020CB
-t1302889750
-s8395
-i<limits>
-i"gtest/internal/gtest-string.h"
-i"gtest/internal/gtest-internal.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-param-test.h
-c000000004DA885160000000000012859
-t1302889750
-s75865
-i"gtest/internal/gtest-port.h"
-i<utility>
-i"gtest/internal/gtest-internal.h"
-i"gtest/internal/gtest-param-util.h"
-i"gtest/internal/gtest-param-util-generated.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-printers.h
-c000000004DA885160000000000007639
-t1302889750
-s30265
-i<ostream>
-i<sstream>
-i<string>
-i<utility>
-i<vector>
-i"gtest/internal/gtest-port.h"
-i"gtest/internal/gtest-internal.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-test-part.h
-c000000004DA885160000000000001945
-t1302889750
-s6469
-i<iosfwd>
-i<vector>
-i"gtest/internal/gtest-internal.h"
-i"gtest/internal/gtest-string.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest-typed-test.h
-c000000004DA885160000000000002802
-t1302889750
-s10242
-i"gtest/internal/gtest-port.h"
-i"gtest/internal/gtest-type-util.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest.h
-c000000004DA885160000000000014212
-t1302889750
-s82450
-i<limits>
-i<vector>
-i"gtest/internal/gtest-internal.h"
-i"gtest/internal/gtest-string.h"
-i"gtest/gtest-death-test.h"
-i"gtest/gtest-message.h"
-i"gtest/gtest-param-test.h"
-i"gtest/gtest-printers.h"
-i"gtest/gtest_prod.h"
-i"gtest/gtest-test-part.h"
-i"gtest/gtest-typed-test.h"
-i"gtest/gtest_pred_impl.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest_pred_impl.h
-c000000004DA885160000000000003B24
-t1302889750
-s15140
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../include/gtest/gtest_prod.h
-c000000004DA885160000000000000914
-t1302889750
-s2324
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc
-c000000004DA8851600000000000009C6
-t1302889750
-s2502
-i"sample1.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc
-c000000004DA88516000000000000140C
-t1302889750
-s5132
-i<limits.h>
-i"sample1.h"
-i"gtest/gtest.h"
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/libgtest.a
-c000000005184BDB0000000000072B838
-t1367653808
-s7518264
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/libgtest_main.a
-c000000005184BDB100000000000182C0
-t1367653809
-s99008
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/sample1_unittest-static
-t1367653907
-s3066992
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1.o
-t1367653906
-s2520
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static
-t1367653907
-s683232
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static.LinkFileList
-c000000005184BE12000000000000010B
-t1367653906
-s267
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest.o
-t1367653907
-s154336
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1.o
-t1367653906
-s2708
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static
-t1367653907
-s771628
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static.LinkFileList
-c000000005184BE120000000000000109
-t1367653906
-s265
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest.o
-t1367653907
-s167800
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1.o
-t1367653906
-s3104
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static
-t1367653907
-s842864
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static.LinkFileList
-c000000005184BE12000000000000010D
-t1367653906
-s269
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest.o
-t1367653907
-s174884
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1.o
-t1367653906
-s3232
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static
-t1367653907
-s759080
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static.LinkFileList
-c000000005184BE12000000000000010F
-t1367653906
-s271
-
-N/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest.o
-t1367653907
-s161860
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies389346706#389346706#0(0"0(0#1#0"8601296928#0"0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal i386 c++ com.apple.compilers.gcc.4_0
-s389346706.223124
-e389346706.253566
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc389346706#389346706#0(0"0(0#0#66"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc8604970784#1636"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/i386 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal i386 c++ com.apple.compilers.gcc.4_0
-s389346706.223773
-e389346707.117912
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc
-xnormal
-xi386
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@83"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc389346706#389346707#0(0"0(0#0#75"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc8603222880#1654"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/i386 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal ppc c++ com.apple.compilers.gcc.4_0
-s389346706.225983
-e389346706.256257
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc
-xnormal
-xppc
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc389346706#389346706#0(0"0(0#0#66"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc8613983776#1643"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/ppc -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal ppc c++ com.apple.compilers.gcc.4_0
-s389346706.226905
-e389346707.162441
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc
-xnormal
-xppc
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@83"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc389346706#389346707#0(0"0(0#0#75"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc8608984160#1661"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/ppc -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal ppc64 c++ com.apple.compilers.gcc.4_0
-s389346706.227891
-e389346706.260090
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc
-xnormal
-xppc64
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc389346706#389346706#0(0"0(0#0#66"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc8605928544#1649"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/ppc64 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal ppc64 c++ com.apple.compilers.gcc.4_0
-s389346706.228935
-e389346707.231152
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc
-xnormal
-xppc64
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@83"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc389346706#389346707#0(0"0(0#0#75"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc8605582304#1667"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/ppc64 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc normal x86_64 c++ com.apple.compilers.gcc.4_0
-s389346706.224376
-e389346706.254697
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@74"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc389346706#389346706#0(0"0(0#0#66"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc8610616224#1642"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/x86_64 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1.o0#
-
-CCompileC build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest.o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc normal x86_64 c++ com.apple.compilers.gcc.4_0
-s389346706.225008
-e389346707.204587
-r1
-xCompileC
-xbuild/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest.o
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_0
-lSLF07#2@83"Compile /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc389346706#389346707#0(0"0(0#0#75"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc8614743168#1660"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv LANG en_US.US-ASCII    /Volumes/Free/iPhoneDeveloper4/usr/bin/gcc-4.0 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-generated-files.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-own-target-headers.hmap -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-all-target-headers.hmap -iquote /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/sample1_unittest-static-project-headers.hmap -Wall -Werror -Wendif-labels -Wnewline-eof -Wno-sign-compare -Wshadow -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/include -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources/x86_64 -I/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/DerivedSources -DDEBUG=1 -c /Volumes/leopard/Downloads/gtest-1.6.0/xcode/../samples/sample1_unittest.cc -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest.o0#
-
-CCreateUniversalBinary /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/sample1_unittest-static normal "i386 x86_64 ppc ppc64"
-s389346707.286098
-e389346707.291982
-r1
-xCreateUniversalBinary
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/sample1_unittest-static
-xnormal
-xi386 x86_64 ppc ppc64
-lSLF07#2@88"CreateUniversalBinary build/Debug/sample1_unittest-static normal "i386 x86_64 ppc ppc64"389346707#389346707#0(0"0(0#0#66"/Volumes/leopard/Downloads/gtest-1.6.0/xcode/i386 x86_64 ppc ppc648612304384#741"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    /usr/bin/lipo -create /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static -output /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug/sample1_unittest-static0#
-
-CLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static normal i386
-s389346707.117994
-e389346707.179693
-r1
-xLd
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static
-xnormal
-xi386
-lSLF07#2@147"Link /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static389346707#389346707#0(0"0(0#0#0"8613778464#694"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Volumes/Free/iPhoneDeveloper4/usr/bin/g++-4.0 -arch i386 -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -L/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -filelist /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static.LinkFileList -mmacosx-version-min=10.4 -lgtest -lgtest_main -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/i386/sample1_unittest-static0#
-
-CLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static normal ppc
-s389346707.162551
-e389346707.234256
-r1
-xLd
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static
-xnormal
-xppc
-old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o
-old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/usr/bin/../lib/gcc/powerpc-apple-darwin10/4.0.1/crt3.o
-lSLF07#2@146"Link /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static389346707#389346707#0(427"ld: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.old: warning: object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/usr/bin/../lib/gcc/powerpc-apple-darwin10/4.0.1/crt3.o2(22@190"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk/usr/lib/crt1.o389346707#0#204#0(6@0"389346707#0#0#0#0#0"0(22@209"Object file compiled with -mlong-branch which is no longer needed. To remove this warning, recompile without -mlong-branch: /Volumes/Free/iPhoneDeveloper4/usr/bin/../lib/gcc/powerpc-apple-darwin10/4.0.1/crt3.o389346707#204#223#0(6@0"389346707#0#0#0#0#0"0(0#0#0"8612798400#691"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Volumes/Free/iPhoneDeveloper4/usr/bin/g++-4.0 -arch ppc -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -L/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -filelist /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static.LinkFileList -mmacosx-version-min=10.4 -lgtest -lgtest_main -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc/sample1_unittest-static0#
-
-CLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static normal ppc64
-s389346707.231235
-e389346707.286023
-r1
-xLd
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static
-xnormal
-xppc64
-lSLF07#2@148"Link /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static389346707#389346707#0(0"0(0#0#0"8615501920#697"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Volumes/Free/iPhoneDeveloper4/usr/bin/g++-4.0 -arch ppc64 -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -L/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -filelist /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static.LinkFileList -mmacosx-version-min=10.4 -lgtest -lgtest_main -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/ppc64/sample1_unittest-static0#
-
-CLd /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static normal x86_64
-s389346707.204667
-e389346707.262883
-r1
-xLd
-x/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static
-xnormal
-xx86_64
-lSLF07#2@149"Link /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static389346707#389346707#0(0"0(0#0#0"8604693472#700"    cd /Volumes/leopard/Downloads/gtest-1.6.0/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Volumes/Free/iPhoneDeveloper4/usr/bin/g++-4.0 -arch x86_64 -isysroot /Volumes/Free/iPhoneDeveloper4/SDKs/MacOSX10.4u.sdk -L/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -F/Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/Debug -filelist /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static.LinkFileList -mmacosx-version-min=10.4 -lgtest -lgtest_main -o /Volumes/leopard/Downloads/gtest-1.6.0/xcode/build/gtest.build/Debug/sample1_unittest-static.build/Objects-normal/x86_64/sample1_unittest-static0#
-

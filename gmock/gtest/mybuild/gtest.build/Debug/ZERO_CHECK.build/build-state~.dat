@@ -1,29 +1,0 @@
-TZERO_CHECK
-v7
-r0
-t393716551.690716
-cCheck dependencies
-cPhaseScriptExecution "CMake Rules" /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ZERO_CHECK.build/Script-A170B09C2B0C456B9969F176.sh
-
-N/Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ZERO_CHECK.build/Script-A170B09C2B0C456B9969F176.sh
-c0000000051C76BC700000000000000B9
-t1372023751
-s185
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies393716551#393716551#0(0"0(0#1#0"7382074289954583552#0"0#
-
-CPhaseScriptExecution "CMake Rules" /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ZERO_CHECK.build/Script-A170B09C2B0C456B9969F176.sh
-s393716551.654368
-e393716551.690654
-r1
-xPhaseScriptExecution
-xCMake Rules
-x/Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ZERO_CHECK.build/Script-A170B09C2B0C456B9969F176.sh
-oecho ""
-o
-omake -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/ReRunCMake.make
-omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
-lSLF07#2@37"Run custom shell script 'CMake Rules'393716551#393716551#0(149"echo ""make -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(13@8"echo ""393716551#0#8#0(1@0"0(13@85"make -f /Users/bj/development/gmock-1.6.0/gtest/mybuild/CMakeScripts/ReRunCMake.make393716551#9#85#0(1@0"0(13@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.393716551#94#55#0(1@0"0(0#0#0"16044279835263024#196"    cd /Volumes/leopard/Users/bj/development/gmock-1.6.0/gtest    /bin/sh -c /Users/bj/development/gmock-1.6.0/gtest/mybuild/gtest.build/Debug/ZERO_CHECK.build/Script-A170B09C2B0C456B9969F176.sh0#
-
