@@ -27,7 +27,7 @@ void NXTCommands::setSpeed(const int speed)
 
  void NXTCommands::move(byte speed, bool spin)
 {   
-	_leftMotor[5] = spin ? -1*speed/4 : speed/2;
+	_leftMotor[5]  = spin ? -1*speed/4 : speed/2;
 	_rightMotor[5] = spin ? speed/4 : speed/2;
 
 	BTSerial->write(_rightMotor, PACKET_SIZE);
@@ -93,3 +93,30 @@ void NXTCommands::playTone(byte frequency, byte milliseconds)
 	BTSerial->write(_tone, PACKET_SIZE);
 	delay(_delayTime);
 }
+
+// Testing Routines
+byte NXTCommands::getLeftMotorPacket(int byteIndex)
+{
+    return _leftMotor[byteIndex];
+}
+
+byte NXTCommands::getRightMotorPacket(int byteIndex)
+{
+    return _rightMotor[byteIndex];
+}
+
+byte NXTCommands::getShootMotorPacket(int byteIndex)
+{
+    return _shootMotor[byteIndex];
+}
+
+byte NXTCommands::getTonePacket(int byteIndex)
+{
+    return _tone[byteIndex];
+}
+
+byte NXTCommands::getSpeed()
+{
+    return _speed;
+}
+
