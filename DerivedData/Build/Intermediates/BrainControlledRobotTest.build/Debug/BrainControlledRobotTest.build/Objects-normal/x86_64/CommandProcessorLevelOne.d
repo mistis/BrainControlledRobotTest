@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/CommandProcessorLevelOne.cpp \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/CommandProcessorLevelOne.h \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/CommandDefinitions.h
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/CommandProcessorLevelOne.cpp \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/CommandProcessorLevelOne.h \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/CommandDefinitions.h

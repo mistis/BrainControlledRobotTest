@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/CommandPacketGeneratorTest.cpp \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/NXTCommands.h \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/TestLib.h
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/CommandPacketGeneratorTest.cpp \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/NXTCommands.h \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/TestLib.h

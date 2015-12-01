@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/basicMockTest.cpp \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/basicMockTest.cpp \
   gmock/include/gmock/gmock.h gmock/include/gmock/gmock-actions.h \
   gmock/include/gmock/internal/gmock-internal-utils.h \
   gmock/include/gmock/internal/gmock-generated-internal-utils.h \

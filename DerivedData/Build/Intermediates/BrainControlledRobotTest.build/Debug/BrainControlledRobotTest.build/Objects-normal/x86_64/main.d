@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/misti/Brain-Controlled-Robot/BrainControlledRobotTest/BrainControlledRobotTest/main.cpp \
+  /Users/misti/Desktop/Senior\ Project/BrainControlledRobotTest/BrainControlledRobotTest/main.cpp \
   gtest/include/gtest/gtest.h \
   gtest/include/gtest/internal/gtest-internal.h \
   gtest/include/gtest/internal/gtest-port.h \
