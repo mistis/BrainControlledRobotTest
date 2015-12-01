@@ -11,8 +11,8 @@
 		4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */; };
 		4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */; };
 		4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AB1C0D273100ACB85B /* TestLib.cpp */; };
-		4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */; };
-		4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */; };
+		4CBE40AF1C0D278A00ACB85B /* BasicTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AD1C0D278A00ACB85B /* BasicTest.cpp */; };
+		4CBE40B21C0D282000ACB85B /* BasicMockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B01C0D282000ACB85B /* BasicMockTest.cpp */; };
 		4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */; };
 		4CBE40B81C0D3BA100ACB85B /* unittest_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */; };
 		4CBE40C61C0D4AF600ACB85B /* gmock-gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */; };
@@ -43,8 +43,8 @@
 		4CBE40A61C0D209600ACB85B /* CommandPacketGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPacketGenerator.h; sourceTree = "<group>"; };
 		4CBE40AA1C0D20D200ACB85B /* TestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
 		4CBE40AB1C0D273100ACB85B /* TestLib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestLib.cpp; sourceTree = "<group>"; };
-		4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicTest.cpp; sourceTree = "<group>"; };
-		4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicMockTest.cpp; sourceTree = "<group>"; };
+		4CBE40AD1C0D278A00ACB85B /* BasicTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicTest.cpp; sourceTree = "<group>"; };
+		4CBE40B01C0D282000ACB85B /* BasicMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicMockTest.cpp; sourceTree = "<group>"; };
 		4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGeneratorTest.cpp; sourceTree = "<group>"; };
 		4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_main.cpp; sourceTree = "<group>"; };
 		4CBE40BF1C0D46B400ACB85B /* Commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commands.h; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 		4CBE407F1C0D142B00ACB85B /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */,
-				4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */,
+				4CBE40AD1C0D278A00ACB85B /* BasicTest.cpp */,
+				4CBE40B01C0D282000ACB85B /* BasicMockTest.cpp */,
 				4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */,
 			);
 			name = UnitTests;
@@ -183,8 +183,8 @@
 				4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */,
 				4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */,
 				4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */,
-				4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */,
-				4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */,
+				4CBE40AF1C0D278A00ACB85B /* BasicTest.cpp in Sources */,
+				4CBE40B21C0D282000ACB85B /* BasicMockTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
