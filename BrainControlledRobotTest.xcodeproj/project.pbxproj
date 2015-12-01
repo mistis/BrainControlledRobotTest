@@ -47,6 +47,7 @@
 		4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicMockTest.cpp; sourceTree = "<group>"; };
 		4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGeneratorTest.cpp; sourceTree = "<group>"; };
 		4CBE40B71C0D3BA100ACB85B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CBE40BF1C0D46B400ACB85B /* Commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commands.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */,
 				4CBE40A11C0D209600ACB85B /* CommandProcessorLevelOne.h */,
 				4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */,
+				4CBE40BF1C0D46B400ACB85B /* Commands.h */,
 				4CBE40A31C0D209600ACB85B /* NXTCommands.h */,
 				4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */,
 				4CBE40A41C0D209600ACB85B /* BrainControlledRobot.ino */,
