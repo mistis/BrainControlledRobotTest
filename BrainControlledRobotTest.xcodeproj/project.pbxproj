@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CBE407E1C0D139700ACB85B /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE407D1C0D139700ACB85B /* gtest-all.cc */; };
 		4CBE40A71C0D209600ACB85B /* CommandPacketGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */; };
 		4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */; };
 		4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40A21C0D209600ACB85B /* NXTCommands.cpp */; };
@@ -15,7 +14,9 @@
 		4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */; };
 		4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */; };
 		4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */; };
-		4CBE40B81C0D3BA100ACB85B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B71C0D3BA100ACB85B /* main.cpp */; };
+		4CBE40B81C0D3BA100ACB85B /* unittest_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */; };
+		4CBE40C61C0D4AF600ACB85B /* gmock-gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */; };
+		4CBE40C71C0D4AF600ACB85B /* gmock_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40C51C0D4AF600ACB85B /* gmock_main.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		4CBE40731C0D111200ACB85B /* BrainControlledRobotTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrainControlledRobotTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CBE407D1C0D139700ACB85B /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
 		4CBE409F1C0D209600ACB85B /* CommandPacketGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGenerator.cpp; sourceTree = "<group>"; };
 		4CBE40A01C0D209600ACB85B /* CommandProcessorLevelOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandProcessorLevelOne.cpp; sourceTree = "<group>"; };
 		4CBE40A11C0D209600ACB85B /* CommandProcessorLevelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandProcessorLevelOne.h; sourceTree = "<group>"; };
@@ -46,8 +46,10 @@
 		4CBE40AD1C0D278A00ACB85B /* basicTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicTest.cpp; sourceTree = "<group>"; };
 		4CBE40B01C0D282000ACB85B /* basicMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basicMockTest.cpp; sourceTree = "<group>"; };
 		4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandPacketGeneratorTest.cpp; sourceTree = "<group>"; };
-		4CBE40B71C0D3BA100ACB85B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unittest_main.cpp; sourceTree = "<group>"; };
 		4CBE40BF1C0D46B400ACB85B /* Commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commands.h; sourceTree = "<group>"; };
+		4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-gtest-all.cc"; sourceTree = "<group>"; };
+		4CBE40C51C0D4AF600ACB85B /* gmock_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_main.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 		4CBE40751C0D111200ACB85B /* BrainControlledRobotTest */ = {
 			isa = PBXGroup;
 			children = (
-				4CBE40B71C0D3BA100ACB85B /* main.cpp */,
-				4CBE407D1C0D139700ACB85B /* gtest-all.cc */,
+				4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */,
+				4CBE40C51C0D4AF600ACB85B /* gmock_main.cc */,
+				4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */,
 				4CBE40811C0D144F00ACB85B /* ImplementationFiles */,
 				4CBE407F1C0D142B00ACB85B /* UnitTests */,
 			);
@@ -172,15 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBE40C71C0D4AF600ACB85B /* gmock_main.cc in Sources */,
 				4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */,
+				4CBE40C61C0D4AF600ACB85B /* gmock-gtest-all.cc in Sources */,
 				4CBE40A71C0D209600ACB85B /* CommandPacketGenerator.cpp in Sources */,
-				4CBE40B81C0D3BA100ACB85B /* main.cpp in Sources */,
+				4CBE40B81C0D3BA100ACB85B /* unittest_main.cpp in Sources */,
 				4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */,
 				4CBE40A81C0D209600ACB85B /* CommandProcessorLevelOne.cpp in Sources */,
 				4CBE40B41C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp in Sources */,
 				4CBE40AF1C0D278A00ACB85B /* basicTest.cpp in Sources */,
 				4CBE40B21C0D282000ACB85B /* basicMockTest.cpp in Sources */,
-				4CBE407E1C0D139700ACB85B /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

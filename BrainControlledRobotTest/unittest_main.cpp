@@ -35,6 +35,7 @@
 #include <stdio.h>
 
 #include "gtest/gtest.h"
+#include "gmock/gmock.h"
 
 using ::testing::EmptyTestEventListener;
 using ::testing::InitGoogleTest;
@@ -115,15 +116,16 @@ namespace {
     
 }  // namespace
 
-int main(int argc, char **argv) {
-    InitGoogleTest(&argc, argv);
+int unittest_main(int argc, char **argv) {
+    // InitGoogleTest(&argc, argv);
+    testing::InitGoogleMock(&argc, argv);
     
     bool terse_output = true;
     
     printf("\n");
     
-    if (argc > 1 && strcmp(argv[1], "--no_terse_output") == 0 )
-        terse_output = false;
+    if (argc > 1 && strcmp(argv[1], "--terse_output") == 0 )
+        terse_output = true;
     else if (!terse_output)
         printf("%s\n", "Run this program with --terse_output to change the way "
                "it prints its output.");

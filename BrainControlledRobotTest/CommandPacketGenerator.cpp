@@ -17,7 +17,6 @@ CommandPacketGenerator::CommandPacketGenerator(Commands* cmdGen) :
 
 CommandPacketGenerator::~CommandPacketGenerator()
 {
-    delete mCommandHandler;
 }
 
 
