@@ -3,45 +3,17 @@
 
 *.xcindexdb
 
-*.xcindexdb
-
-*.xcindexdb
-
 *.xcindexdb-shm
-
-*.xcindexdb
-
-*.o
 
 *.o
 
 *.d
 
-*.o
-
-*.xcindexdb
-
-*.xcindexdb-shm
-
 *.xcindexdb-wal
-
-*.xcindexdb-shm
 
 *.xcactivitylog
 
-*.xcindexdb
-
-*.xcindexdb
-
-*.xcindexdb-shm
-
-*.xcindexdb-wal
-
 *.strings-dir
-
-*.db
-
-*.db
 
 *.db
 
@@ -49,56 +21,8 @@
 
 *.hmap
 
-*.hmap
-
-*.d
-
-*.o
-
-*.d
-
-*.o
-
 *.dat
 
 *.LinkFileList
 
-*.d
-
 *.dia
-
-*.o
-
-*.d
-
-*.o
-
-*.d
-
-*.o
-
-*.d
-
-*.o
-
-*.d
-
-*.dia
-
-*.o
-
-*.d
-
-*.o
-
-*.d
-
-*.o
-
-*.db
-
-*.db
-
-DerivedData/BrainControlledRobotTest/Logs/Build/Cache.db
-
-DerivedData/BrainControlledRobotTest/Logs/Issues/Cache.db
