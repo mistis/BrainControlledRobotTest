@@ -17,6 +17,7 @@
 		4CBE40B81C0D3BA100ACB85B /* unittest_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40B71C0D3BA100ACB85B /* unittest_main.cpp */; };
 		4CBE40C61C0D4AF600ACB85B /* gmock-gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */; };
 		4CBE40C71C0D4AF600ACB85B /* gmock_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40C51C0D4AF600ACB85B /* gmock_main.cc */; };
+		4CBE40CB1C0D509300ACB85B /* CommandProcessorLevelOneTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE40CA1C0D509300ACB85B /* CommandProcessorLevelOneTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		4CBE40BF1C0D46B400ACB85B /* Commands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commands.h; sourceTree = "<group>"; };
 		4CBE40C41C0D4AF600ACB85B /* gmock-gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gmock-gtest-all.cc"; sourceTree = "<group>"; };
 		4CBE40C51C0D4AF600ACB85B /* gmock_main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gmock_main.cc; sourceTree = "<group>"; };
+		4CBE40CA1C0D509300ACB85B /* CommandProcessorLevelOneTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommandProcessorLevelOneTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				4CBE40AD1C0D278A00ACB85B /* BasicTest.cpp */,
 				4CBE40B01C0D282000ACB85B /* BasicMockTest.cpp */,
 				4CBE40B31C0D2A1100ACB85B /* CommandPacketGeneratorTest.cpp */,
+				4CBE40CA1C0D509300ACB85B /* CommandProcessorLevelOneTest.cpp */,
 			);
 			name = UnitTests;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				4CBE40C71C0D4AF600ACB85B /* gmock_main.cc in Sources */,
 				4CBE40A91C0D209600ACB85B /* NXTCommands.cpp in Sources */,
 				4CBE40C61C0D4AF600ACB85B /* gmock-gtest-all.cc in Sources */,
+				4CBE40CB1C0D509300ACB85B /* CommandProcessorLevelOneTest.cpp in Sources */,
 				4CBE40A71C0D209600ACB85B /* CommandPacketGenerator.cpp in Sources */,
 				4CBE40B81C0D3BA100ACB85B /* unittest_main.cpp in Sources */,
 				4CBE40AC1C0D273100ACB85B /* TestLib.cpp in Sources */,
