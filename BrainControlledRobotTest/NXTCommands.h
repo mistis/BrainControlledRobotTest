@@ -28,10 +28,6 @@ public:
     
     NXTCommands();
 
-    void setSpeed(const int speed);
-    
-    void move(byte speed, bool spin=false);
-    
     virtual void moveLeft();
     virtual void moveRight();
     virtual void spin();
@@ -39,7 +35,9 @@ public:
     virtual void moveBackward();
     virtual void stopMoving();
     virtual void shoot();
-    
+
+    void setSpeed(const int speed);
+    void move(byte speed, bool spin=false);
     void playTone(byte,byte);
     
 private:
