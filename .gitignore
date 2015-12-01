@@ -98,3 +98,7 @@
 *.db
 
 *.db
+
+DerivedData/BrainControlledRobotTest/Logs/Build/Cache.db
+
+DerivedData/BrainControlledRobotTest/Logs/Issues/Cache.db
